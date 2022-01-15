@@ -137,16 +137,29 @@ header{
 #small-text{
     font-weight: 500;
 }
-.extra{
-    text-align: center;
-        border: solid red;
-        transform: translate(30px, 20px) rotate(20deg);
-        width: 140px;
-        height: 130px;
-}
 .exclu{
     display: flex;
-    width: 80%;
+
+}
+.extra-product{
+    background-color: rgb(161, 92, 80);
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+    margin-top: 45px;
+    margin-left: 152px;
+    padding: 15px;
+    border: 2px solid whitesmoke;
+}
+.extra-head{
+    text-align: center;
+    border: solid red;
+    transform: translate(30px, 20px) rotate(20deg);
+    width: 170px;
+    height: 90px;
+    margin-top: 160px;
+    margin-left: 120px;
 }
 .footer-part{
     background-color: rgb(3, 3, 22);
