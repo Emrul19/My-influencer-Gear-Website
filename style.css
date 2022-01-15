@@ -1,25 +1,25 @@
 body{
     width: 100%;
     margin: 0;
+    background-color: rgb(218, 159, 159);
 
 }
 .header-nav{
-    display:flex;
-    margin-top: 10px;
-    
-
-    
+    margin-top: 2px;
+    text-align: center;    
 }
 
 header{
+    margin-top: 20px;
     font-weight: 800;
+    
 }
 .nav-line{
-    text-align: right;
+    
     display: flex;
     margin-top: 0;
-    list-style: none;
-    margin-left:300px;
+    list-style:none;
+    margin-left:0;
     
 
 }
@@ -111,10 +111,19 @@ header{
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 45px;
     grid-column-gap: 30px;
+    margin-left: 150px;
+}
+.products{
+    background-color: rgb(161, 92, 80);
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 2px solid whitesmoke;
 }
 .thumbnail img{
-    width: 300px;
-    height: 256px;
+    width: 100%;
+    height: 300px;
 }
 .rating{
     display: flex;
@@ -127,4 +136,24 @@ header{
 }
 #small-text{
     font-weight: 500;
+}
+.extra{
+    text-align: center;
+        border: solid red;
+        transform: translate(30px, 20px) rotate(20deg);
+        width: 140px;
+        height: 130px;
+}
+.exclu{
+    display: flex;
+    width: 80%;
+}
+.footer-part{
+    background-color: rgb(3, 3, 22);
+    font-weight:normal;
+    text-align: center;
+    margin: 0px;
+    color:whitesmoke;
+    justify-content: center;
+
 }
