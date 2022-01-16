@@ -106,12 +106,17 @@ header{
     transform: rotate(-720deg);
 
 }
+.products-part{
+    margin-bottom: 40px;
+}
 .products-deatails-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 45px;
     grid-column-gap: 30px;
     margin-left: 150px;
+    padding: 10px;
+    /* background-color: rgb(133, 60, 130); */
 }
 .products{
     background-color: rgb(161, 92, 80);
@@ -137,10 +142,68 @@ header{
 #small-text{
     font-weight: 500;
 }
+#more-bar{
+    text-decoration: none;
+    float: right;
+    text-align: right;
+}
+.btn2{
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 20px;
+    background-color: #E02C6D;
+    margin-bottom: 0;
+    margin-right: 15px;
+    
+}
+
+.btn2:hover{
+    background-image:linear-gradient(red,#e9296f,rgb(161, 41, 41),rgb(155, 38, 38));
+}
+.btn2 a,i{
+    
+    color: #FFFFFF;
+}
+.btn2 a{
+    text-decoration: none;
+}
 .exclu{
     display: flex;
 
 }
+.last-part{
+    display: flex;
+    margin-top: 140px;
+}
+}
+.last-eliments{
+    margin-top: 207px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.last-text{
+    margin: 0;
+    padding: 0;
+}
+.last-text h3{
+    line-height: 40px;
+    word-wrap:break-word;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 44px;
+    
+}
+.last-article{
+    font-weight: 500;
+}
+
 .extra-product{
     background-color: rgb(161, 92, 80);
     border-radius: 2%;
